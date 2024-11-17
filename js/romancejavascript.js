@@ -11,7 +11,7 @@ let conteudo ={
     
     orgulhoePreconceito:
                     `<div class="imgRomance">
-                        <img src="/img/orgulhoePreconceito-jane.png" alt="">
+                        <img src="img/orgulhoePreconceito-jane.png" alt="">
 
                     </div>
                     <div class="infRomance">
@@ -23,7 +23,7 @@ let conteudo ={
 
     domQuixote: `
                     <div class="imgRomance">
-                        <img src="/img/domQuixote.png" alt="">
+                        <img src="img/domQuixote.png" alt="">
 
                     </div>
                     <div class="infRomance">
@@ -35,7 +35,7 @@ let conteudo ={
                 `,
     osMiseraveis:`
                     <div class="imgRomance">
-                        <img src="/img/osMiseraveis.png" alt="">
+                        <img src="img/osMiseraveis.png" alt="">
 
                     </div>
                     <div class="infRomance">
