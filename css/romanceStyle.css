@@ -1,0 +1,261 @@
+#livrosRomance{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    margin: 3%;
+    font-size: 1vw;
+    
+}
+#livrosRomance img{
+    width:85%;
+    border-radius: 20px;
+    height: 65%;
+}
+.livrosRomance{
+    text-align: center;
+   /* background-color: #c4ab97;*/
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Edu AU VIC WA NT Pre";
+    padding-bottom: 2%;
+    
+}
+.livrosRomance:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    
+}
+
+.imgRomance{
+    max-height: 100%;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+
+}
+.imgRomance img{
+    max-height: 100%;
+    border-radius: 10px;
+}
+.infRomance{
+    font-size: 1vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 3%;    
+}
+.infRomance h1{
+    font-size: large;
+}
+.infRomance h3{
+    font-size: large;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    
+}
+#livrosRomance h3{
+    color: white;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: #d4bb9c;
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between;
+
+}
+.fa-magnifying-glass{
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+header i{
+    align-items: center;
+
+}
+.pesquisa-header{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    
+
+}
+.pesquisa-header input{
+    width: 100%;
+    height: 22px;
+    border-radius: 10px;
+}
+
+
+/*  ***  */
+
+section{
+    display: block;
+
+}
+.apresentacao{
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+.apresentacao img{
+    width: 70%;
+    
+}
+.apresentacao-texto{
+    position: absolute;
+    background-color:#f2f2f2;
+    top: 6%;
+    left: 22%;
+    width: 56%;
+    height: 83%;
+    display: flex;
+    
+}
+.apresentacao-texto button{
+    
+    padding: 1% 25%;
+    margin-top: 15%;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: wheat 1px solid;
+    
+}
+.apresentacao-texto h2{
+    margin: 3%;
+    font-family: "Edu AU VIC WA NT Pre";
+}
+.apresentacao-texto p{
+    margin-left: 3%;
+}
+
+.genero{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    margin: 3%;
+    font-size: 1vw;
+    
+}
+.genero img{
+    width:87%;
+    
+}
+.genero-selecionar{
+    text-align: center;
+   /* background-color: #c4ab97;*/
+   
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Edu AU VIC WA NT Pre";
+    padding-bottom: 2%;
+}
+.genero-selecionar:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    
+}
+
+
+/*Menu*/
+
+#menu{
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 35%;
+    position:fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#menu h3,#menu h2{
+    margin: 15px 0px;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+
+#menu span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 40px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+#menu h3::after {
+    content: "";                      /* Cria um pseudo-elemento vazio */
+    position: absolute;
+    left: 0;
+      bottom: 0;
+      width: 0;                          /* Largura inicial da linha */
+      height: 2px;                       /* Espessura da linha */
+      background-color: #3498db;         /* Cor da linha */
+      transition: width 0.5s ease;
+}
+#menu h3:hover::after {
+    width: 100%;                       /* Expande a linha para a largura total do h3 */
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.footer{
+    margin-top: 10%;
+    padding: 1% 0;
+    background: white;
+    font-size:x-large;
+}
+@media (max-width:700px) {  
+    #menu{
+        align-items: flex-start;
+    }
+    
+}
+
